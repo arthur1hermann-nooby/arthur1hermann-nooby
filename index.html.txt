@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Primeira Aula de HTML - Tags de texto padrão</title>
+
+    </head>
+    <h1>Primeira Aula de HTML - Tags de texto padrão</h1>
+    <p>Olá Pessoal! Nesta aula vamos aprender sobre as tags de texto mais comuns e como elas sao usadas para estruturar </p>
+    <h2>Tags de titulos</h2>
+
+    <p>As tags de titulo vão de <strong>&lt;h1&gt;</strong> (O mais importante) a <strong>&lt;h6&gt;</strong>(o menos importante). Elas definem a hierarquia do conteudo.</p>
+
+<h3>exemplos de titulos</h3>
+<h1>Titulo Principal(h1)</h1>
+<h2>Suvtitulo importante(h2)</h2>
+<h3>Subtitulo menos importante(h3)</h3>
+<h4>Outro Nivel de subtitulo (h4)</h4>
+<h5>Titulo de nivel 5(h5)</h5>
+
+<hr><h2>Tags de paragrafos e quebra de linha</h2>
+<p>A tag <strong>&lt;p&gt;</strong> Cria um paragrafo. Note que o navegador adiciona um estpaço(margem)
+    antes e depois de cada parágrafo,</p>
+
+    <p> este é um parágrafo. Ele ocupa um bloco de texto completo.</p>
+
+    <p> Este é outro parágrafo
+
+  <br> Esta é uma linha quebrada usando a tag <strong>&lt;br&gt;</strong>. O &lt;br&gt; è uma tag de linha simples, sem magem extra. </p>
+
+<h2>Tags de Formatação e ênfase </h2>
+<p>Essas tags servem para dar importãncia, ênfase ou outro tipo de Formatação ao texto.</p>
+
+<p>
+    <strong>&lt;b&gt;</strong> e <strong>&lt;strong&gt;</strong>: Texto em <b>negrito</b>
+    e <strong>texto importante</strong>.<br>
+
+    <strong>&lt;&gt;</strong> e <strong>&lt;em&gt;</strong>: Texto em <i>Itálico</i> e <em> texto com ênfase </em>.<br>
+
+    <strong>&lt;u&gt;</strong>:<u> Texto sublinhado</u>.<br>
+
+    <strong>&lt;small&gt;</strong>:<small>Texto menor</small>.<br>
+
+    <strong>&lt;mark&at:</strong>: Texto <mark>marcado</mark>.<br>
+
+    <strong>&it;sup&gt;</strong> e <strong>&it;sub&gt;</strong>: Texto com <sub>sobreescrito</sub> e com <sub>subscrito</sub> (bom para fórmulas:H<sub>2</sub>O).
+
+    </sub><p>
+
+        <hr>
+        <h2>Tags de Citação e Código</h2>
+
+        <p>
+            <strong>&it;q&gt;</strong>: Uma citação curta, como: <q>Este é um exemplo de citação curta</q><br>
+
+            <strong>&it;code&gt;</strong>: Para trechos de código pequenos, como a variável 'let' nome = "Turma";
+            </p>
+
+
+            <h3>Texto Pré-formado (&it;<pre>&gt;)</h3>
+
+        </p> O &it;pre&gt; preserva todos os espaços e quebras de linhas que você digitar, sendo ótimo para exibir código ou texto formado;</p>
+
+        <pre>
+            funcion mostrar () {
+                //Note que este código
+                //Mantém o espaçamento
+                //exatamente como digitado.
+                console.log ("Olá!");
+            }
+        
+        </pre>
+        <hr>
+        <h2>Tags de Lista</h2>
+        <h3>lista não ordenada (&it;ul&gt;- unordered list )</h3>
+        <p>Usada para itens sem uma sequência específica (numerada ou com letras). </p>
+        <ol>
+            <li>Primeiro passo</li>
+            <li>Segundo passo</li>
+            <li>Terceiro Passo</li>        
+        </ol>
+
+
+        <input type="range" name=""id="">
+        <body>
+        </html>  
+    
